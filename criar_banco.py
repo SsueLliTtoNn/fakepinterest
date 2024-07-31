@@ -1,5 +1,5 @@
-from FakePinterest import database, app
-from FakePinterest.models import Usuario, Foto
+from fakepinterest import database, app
+from fakepinterest.models import Usuario, Foto
 
 with app.app_context():
     database.create_all()
